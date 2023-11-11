@@ -1,0 +1,16 @@
+{
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#830000", // タイトルバーの背景色
+        "titleBar.activeForeground": "#FFFFFF", // タイトルバーの文字色
+        "statusBar.background": "#1ca5ef", // ステータスバーの背景色
+        "statusBar.foreground": "#000000", // ステータスバーの文字色
+    },
+    "azureFunctions.deploySubpath": "api",
+    "azureFunctions.postDeployTask": "npm install (functions)",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.projectLanguageModel": 4,
+    "azureFunctions.preDeployTask": "npm prune (functions)",
+    "git.ignoreLimitWarning": true
+}
